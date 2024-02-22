@@ -8,5 +8,5 @@
 */
 
 const userName = 'Антон';
-let admin = userName;
+const admin = userName;
 console.log(admin);
