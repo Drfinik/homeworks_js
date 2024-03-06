@@ -18,4 +18,39 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+// Функция сложения
+
+const sum = (num1, num2) => {
+    return num1 + num2;
+};
+
+// Функция разности
+
+const difference = (num1, num2) => {
+    if (num1 > num2) {
+        return num1 - num2;
+    } else if (num1 === num2) {
+        return 0;
+    } else {
+        return num2 - num1;
+    }
+};
+
+// Функция умножения
+
+const multiply = (num1, num2) => {
+    return num1 * num2;
+};
+
+// Функция деления
+
+const divide = (num1, num2) => {
+    return num1 / num2;
+};
+
+// Вывод результатов в консоль
+
+console.log(sum(6, 2));
+console.log(difference(6, 2));
+console.log(multiply(6, 2));
+console.log(divide(6, 2));
